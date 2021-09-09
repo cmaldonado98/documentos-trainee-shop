@@ -3,7 +3,7 @@ services:
   netdata:
     image: netdata/netdata
     container_name: netdata
-    hostname: 54.91.49.90 # set to fqdn of host
+    hostname: netdata.achetronic.com # set to fqdn of host
     ports:
       - 19999:19999
     restart: unless-stopped
